@@ -1,78 +1,31 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cesar Dori — Portfolio</title>
-  <link rel="stylesheet" href="/assets/css/style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO: Set the document title to the name of your application -->
+    <title>Cesar Dori - AI/ML Portfolio</title>
+    <meta name="description" content="AI/ML Portfolio">
+    <meta name="author" content="Lovable" />
+
+    <!-- TODO: Update og:title to match your application name -->
+    
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bb3d71b5-3574-41b4-aa40-29341313f06f/id-preview-c9d3093a--09edaaa1-5f50-462b-9d77-8f19f6ca930f.lovable.app-1771615413342.png">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Lovable" />
+    <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bb3d71b5-3574-41b4-aa40-29341313f06f/id-preview-c9d3093a--09edaaa1-5f50-462b-9d77-8f19f6ca930f.lovable.app-1771615413342.png">
+    <meta property="og:title" content="Cesar Dori - AI/ML Portfolio">
+  <meta name="twitter:title" content="Cesar Dori - AI/ML Portfolio">
+  <meta property="og:description" content="AI/ML Portfolio">
+  <meta name="twitter:description" content="AI/ML Portfolio">
+  <script type="module" crossorigin src="/assets/index-D2UUvRkH.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-Dbc3ui36.css">
 </head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/projects/">Projects</a>
-        <a href="/cv.html">CV</a>
-        <a href="/about.html">About</a>
-      </nav>
 
-      <h1 class="title">Cesar Dori</h1>
-      <p class="subtitle">MIT MBAn • Optimization • ML • Deep Learning • Analytics Lab</p>
-
-      <div class="cta-row">
-        <a class="button" href="/projects/">See projects</a>
-        <a class="button button-secondary" href="/cv.html">View CV</a>
-      </div>
-    </div>
-  </header>
-
-  <main class="container">
-    <h2>Featured projects</h2>
-
-    <div class="grid">
-      <a class="card" href="/projects/optimisation.html">
-        <h3>Optimisation Project</h3>
-        <p>Built a two-stage mixed-integer optimization model to improve water access in the Democratic Republic of Congo by optimally repairing and placing wells under budget constraints. The model maximizes population coverage first, then minimizes average walking distance using population-aware demand grids (WorldPop) and real infrastructure data (WPDx).</p>
-        <p>
-          <a class="button button-secondary" href="/assets/reports/optimisation.pdf" target="_blank" rel="noopener">Report</a>
-          <a class="button button-secondary" href="https://github.com/cesar-dx/optimisation-water-access-drc" target="_blank" rel="noopener">Code</a>
-        </p>
-      </a>
-
-      <a class="card" href="/projects/ml.html">
-        <h3>Machine Learning Project</h3>
-        <p>Built an interpretable predictive–prescriptive system for MLB betting by combining team performance, starting pitcher trends, and contextual game factors. Applied optimization-based tree models to translate win-probability forecasts into data-driven betting decisions and evaluated performance against market baselines.</p>
-        <p>
-          <a class="button button-secondary" href="/assets/reports/ml.pdf" target="_blank" rel="noopener">Report</a>
-          <a class="button button-secondary" href="https://github.com/cesar-dx/mlb-betting-ml" target="_blank" rel="noopener">Code</a>
-        </p>
-      </a>
-
-      <a class="card" href="/projects/deep-learning.html">
-        <h3>Hands-on Deep Learning</h3>
-        <p>Built a multimodal resale-price predictor for the MIT Sloan Buy & Sell WhatsApp marketplace, suggesting a fair reference price from a listing’s image + short, noisy text. Used ViT + BERT embeddings with transfer learning (pretrained on an Amazon multimodal dataset, then fine-tuned on a curated WhatsApp dataset) to outperform unimodal baselines.</p>
-        <p>
-          <a class="button button-secondary" href="/assets/reports/deep-learning.pdf" target="_blank" rel="noopener">Report</a>
-          <a class="button button-secondary" href="https://github.com/cesar-dx/whatsapp-marketplace-multimodal" target="_blank" rel="noopener">Code</a>
-        </p>
-      </a>
-
-      <a class="card" href="/projects/analytics-lab.html">
-        <h3>Analytics Lab Project</h3>
-        <p>Built an end-to-end ML pipeline to forecast quarterly NAV changes for private equity funds using historical cash flows, valuation dynamics, and public-market/sector signals. Engineered leak-free features and evaluated accuracy with robust error metrics (incl. tail performance), delivering an explainable, sponsor-ready baseline and benchmarking framework.</p>
-        <p>
-          <a href="/assets/reports/analytics-lab.pdf" target="_blank" rel="noopener">Report</a>
-        </p>
-      </a>
-    </div>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <span>© <span id="y"></span> Cesar Dori</span>
-    </div>
-  </footer>
-
-  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
-</body>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
